@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+<script src="jquery-2.1.3.min.js"></script>
+<title>AJAX</title>
+</head>
+<body>
+<input id="btn1"></input><br>
+<div id="load"></div>
+</body>
+<script>
+$(function() {$('#btn1').keypress(function() {$('#load').load('yo.txt', alert('yo'))})})
+</script>
+</html>
